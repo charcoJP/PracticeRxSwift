@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEA4341C2126BB470087CF9B /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA4341A2126BB460087CF9B /* Result.framework */; };
+		CEA4341D2126BB470087CF9B /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA4341B2126BB470087CF9B /* APIKit.framework */; };
 		CEDAE7B621267A57004AA192 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDAE7B521267A57004AA192 /* AppDelegate.swift */; };
 		CEDAE7B821267A57004AA192 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDAE7B721267A57004AA192 /* ViewController.swift */; };
 		CEDAE7BB21267A57004AA192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDAE7B921267A57004AA192 /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CEA4341A2126BB460087CF9B /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		CEA4341B2126BB470087CF9B /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
 		CEDAE7B221267A57004AA192 /* PracticeRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDAE7B521267A57004AA192 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEDAE7B721267A57004AA192 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA4341C2126BB470087CF9B /* Result.framework in Frameworks */,
+				CEA4341D2126BB470087CF9B /* APIKit.framework in Frameworks */,
 				CEDAE7E621268F9D004AA192 /* RxSwift.framework in Frameworks */,
 				CEDAE7E721268F9D004AA192 /* RxCocoa.framework in Frameworks */,
 			);
@@ -135,6 +141,8 @@
 		CEDAE7E321268F9C004AA192 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CEA4341B2126BB470087CF9B /* APIKit.framework */,
+				CEA4341A2126BB460087CF9B /* Result.framework */,
 				CEDAE7E521268F9D004AA192 /* RxCocoa.framework */,
 				CEDAE7E421268F9D004AA192 /* RxSwift.framework */,
 			);
